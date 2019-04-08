@@ -111,6 +111,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  color:#e2e3ed;
 }
 
 ul,
@@ -125,6 +126,7 @@ a {
 h2{
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
 
 h3,
@@ -132,6 +134,7 @@ h4{
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   line-height: 1.125;
+  font-weight: 500;
 }
 
 p{
@@ -141,11 +144,12 @@ p{
 }
  
  img{
+  width: 100%;
 
  }
 
 figure{
-
+  margin:0;
 }
 
 address{
@@ -203,7 +207,15 @@ header nav ul{
   justify-content: space-around;
   width: 100%;
 }
+ 
+ header figure{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
+ }
 
 
  footer{
@@ -256,7 +268,7 @@ img{
 }
 
 .hero-area .content-wrapper {
-  background: url('img/hmpg-header.jpeg') center no-repeat #333;
+  background: url('./img/hmpg-header.jpeg') center no-repeat #333;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -266,7 +278,7 @@ img{
 /*--aside---*/
 
 aside {
-background-color: #527158;
+background-color:#527158;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -515,11 +527,26 @@ input[type=button] {
   margin: 100px 0;
 }
 
+h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+  h3 {
+      font-size: 1.5em;
+      line-height: 1.25;
+  }
 
 
  header {
   justify-content: space-around; 
  }
+
+ header figure {
+    width: 30%;
+  }
+
+
  header .content-wrapper{
   justify-content: space-between; 
    width: 100%;
@@ -626,6 +653,22 @@ footer .copyright{
   .content-wrapper{
    max-width:960px;
   }
+
+
+   h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+      font-size: 1.875em;
+  }
+
+  p {
+      font-size: 1.125em;
+      line-height: 1.333;
+  }
+  
   .hero-area h1{
    width:60%;
   }
