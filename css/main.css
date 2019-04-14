@@ -394,6 +394,26 @@ input[type=button] {
  margin:0;
 }
 
+
+.map figure{
+  width: 100%
+  height:0;
+  padding-bottom: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
 .contact-section{
   background-color: #2a423a;
   display: flex;
@@ -622,19 +642,7 @@ footer .copyright{
   width: 40% ;
 }
 .map figure{
-  width: 100%
-  height:0;
-  padding-bottom: 80%;
-  overflow: hidden;
-  position: relative;
-}
-
-.map iframe{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding-bottom: 45.5%;
 }
 
 
@@ -711,6 +719,10 @@ footer .copyright{
   .mission h2,
   .contact-section .content-wrapper h2{
    width:100%;
+  }
+
+  .map figure{
+    padding-bottom: 37.5%;
   }
   .contact-secton .content-wrapper h2{
     margin-bottom:40px ;
