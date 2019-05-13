@@ -776,10 +776,10 @@ footer .copyright{
       font-size: 1.125em;
       line-height: 1.333;
   }
-  
+ 
   
  header .content-wrapper{
-  justify-content: space-between; 
+  justify-content: space-around; 
    width: 100%;
 
  }
